@@ -6,7 +6,7 @@ nombres = ["Ana", "Luis", "Sofia"]
 
 nombreUsuario = input("Ingrese su nombre: ")
 
-if nombreUsuario in nombres:
+if nombreUsuario.lower() in [nombre.lower() for nombre in nombres]:
     print("Estás en la lista de invitados.")
 else:
     print("No estás en la lista de invitados.")

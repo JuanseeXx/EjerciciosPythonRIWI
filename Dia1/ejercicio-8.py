@@ -7,7 +7,6 @@
 peso = float(input("Ingrese su peso: "))
 altura = float(input("Ingrese su altura: "))
 imc = peso / (altura **2)
-
 print(f"Su IMC es de {imc:.1f}")
 
 if imc < 18.5:
