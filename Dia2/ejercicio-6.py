@@ -1,6 +1,3 @@
-#["andres","pedro"]
-#["pedro","andres"]
-
 nombres = []
 
 while True:
